@@ -30,3 +30,19 @@
 .hero:hover .jumbotron {
     opacity: 1;
 }
+ /* Media queries for responsiveness */
+    @media (max-width: 767px) {
+        .navbar-collapse {
+            padding: 1rem;
+        }
+        .navbar-toggler {
+            margin: 0;
+        }
+        .navbar-nav {
+            flex-direction: column;
+        }
+        .navbar-nav .nav-item {
+            text-align: center;
+            margin: 0.5rem 0;
+        }
+    }
